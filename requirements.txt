@@ -21,7 +21,7 @@ cycler==0.10.0
 decorator==4.1.2
 Django==2.0.1
 django-jenkins==0.110.0
-docutils==0.15b0.dev0
+docutils
 entrypoints==0.2.3
 enum34==1.1.6
 environment==1.0.0
@@ -33,7 +33,7 @@ gevent==1.2.2
 graphviz==0.8.2
 greenlet==0.4.12
 gym==0.9.4
-gym-maze==0.4
+-e git+https://github.com/MattChanTK/gym-maze.git#egg=gym-maze
 h5py==2.7.1
 html5lib==0.9999999
 IbPy2==0.8.0
@@ -65,7 +65,7 @@ keras-rl==0.4.0
 lxml==4.1.1
 Mako==1.0.7
 Markdown==2.4.1
-MarkupSafe==1.0
+MarkupSafe
 matplotlib==2.0.2
 mistune==0.8.3
 multidict==4.2.0
@@ -123,8 +123,8 @@ sklearn==0.0
 snowballstemmer==1.2.1
 Sphinx==1.7.5
 sphinxcontrib-websupport==1.1.0
-tensorflow==1.4.0
-tensorflow-gpu==1.4.0
+#tensorflow==1.4.0
+#tensorflow-gpu==1.4.0
 tensorflow-tensorboard==0.4.0rc3
 testpath==0.3.1
 tgym==0.1.13
@@ -136,7 +136,7 @@ traitlets==4.3.2
 twine==1.9.1
 urllib3==1.22
 virtualenv==15.1.0
-wcwidth==0.1.7P
+wcwidth
 webencodings==0.5.1
 websockets==4.0.1
 Werkzeug==0.14.1
